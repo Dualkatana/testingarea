@@ -1,0 +1,52 @@
+git config --global user.name "Mantora"
+
+git config --global user.email "zergienator@web.de"
+
+// git config --global credential.helper cache
+
+cd ~/.ssh
+>> sh.exe": cd: /z/.ssh: No such file or directory
+
+ssh-keygen -t rsa -C "zergienator@web.de"
+//Starcraft2
+
+clipt < ~/.ssh/id_rsa.pub
+
+ssh -T git@github.com
+//Verbindungstest
+
+//repo anlegen
+
+cd D:
+
+ls
+
+mkdir testingarea
+
+cd testingarea
+
+git init
+
+touch README
+
+git add README
+
+git commit -m 'first commit'
+
+git remote add <NAME> git@github.com:Dualkatana/testingarea.git
+
+git push <NAME> master
+
+git fetch testingarea
+
+git merge testingarea/master
+
+git commit -m 'first commit'
+
+git rm README
+
+git add README.md
+
+git commit -m 'first commit'
+
+git push <NAME> master
