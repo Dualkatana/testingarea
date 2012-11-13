@@ -1,0 +1,11 @@
+//Fetches any new changes from the original repo
+git fetch testingarea
+
+//Merges any fetched commits into your working files
+git merge testingarea/master
+
+//Commits your files; -m adding the message "first commit"; -a automatically stage all tracked, modified files before the commit
+git commit -am "<NEW_DESCRIPTION>"
+
+//Sends your commits in the "master" branch to GitHub
+git push testingarea master
