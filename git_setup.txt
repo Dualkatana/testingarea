@@ -10,7 +10,7 @@ cd ~/.ssh
 ssh-keygen -t rsa -C "zergienator@web.de"
 //Starcraft2
 
-clipt < ~/.ssh/id_rsa.pub
+clip < ~/.ssh/id_rsa.pub
 
 ssh -T git@github.com
 //Verbindungstest
