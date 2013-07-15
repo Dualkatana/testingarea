@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PlanetWalking\PlaneTest\Water_simulation.shader">
+    <Files>
+      <File FileName="Assets\bauen\Material\Wireframe.cs" Line="23" Column="11" />
+      <File FileName="Assets\bauen\Material\DrawMesh.cs" Line="1" Column="1" />
+      <File FileName="Assets\PlanetWalking\PlaneTest\Water_simulation.shader" Line="5" Column="52" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
